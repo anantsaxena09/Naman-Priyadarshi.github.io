@@ -21,6 +21,6 @@ June - September 2022 | Remote
 
 
 ## App Development, Testing and Analysis ##
-### SimplyLocal, Wabitech ###
+### [SimplyLocal, Wabitech](https://www.simplylocal.app/) ###
 June - September 2021 | Remote
 - Research, analysis, and testing to create functional, secure, and user-friendly software application
