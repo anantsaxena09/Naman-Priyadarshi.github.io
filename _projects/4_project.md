@@ -1,80 +1,68 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: riemapp
+description:  a Python library for visualising complex mappings
+img: assets/img/riemapp.jpg
+importance: 4
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+riemapp is a fast, easy-to-use, minimal library for Python 3.7+ that aliases
+[manim](https://github.com/ManimCommunity/manim) 0.16.0+ functions for
+visualising animated and intuitive complex mappings (transformations from the
+real plane to the complex plane) for various shapes and real-valued functions in
+two dimensions. It uses a minimum number of dependencies through
+[FFmpeg](https://github.com/FFmpeg/FFmpeg) and
+[pangocairo](https://gitlab.gnome.org/GNOME/pango) on Linux.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+[Github](https://github.com/Saransh-cpp/riemapp) & [Documentation](https://riemapp.readthedocs.io/en/latest/)
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Users and learners may use riemapp to:
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+1. Plot (user-defined)
+   - Points
+   - Lines
+   - Triangles
+   - Squares
+   - Rectangles
+   - Other regular polygons
+   - Circles
+   - Irregular polygons
+   - …and so on
+2. Create smooth, precise animations for plotted figures and map them on the
+   Argand plane according to user-defined complex functions.
+3. Save these animations and play them in the default video player available
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+## Structure
 
+- Right now, `riemapp` aliases the geometries provided by `manim` under
+  `riemapp.geometry`. Users can either use these alias classes or directly use
+  the `MObject`s provided by `manim`.
+- `riemapp` programatically generates `manim` animations, and the code for this
+  is available under `riemapp.core`. All of the information added by a user is
+  passed into a placeholder class which inherits `manim.Scene`. This class'
+  object is then used to render the animation.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Usage example
 
+```py
+In [1]: import riemapp as rp
+Manim Community v0.16.0.post0
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+In [2]: import numpy as np
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+In [3]: square = rp.geometry.Square(2.)
+
+In [4]: square
+Out[4]: Square(side_length=2.0) (alias for manim.Square)
+
+In [5]: cm = rp.ComplexMap(square, lambda z: np.e ** z)
+
+In [6]: cm
+Out[6]: ComplexMap(f=Square(side_length=2.0) (alias for manim.Square), transformation=<lambda>)
+
+In [7]: cm.generate_animation(run_time=2.)
+Out[7]: Animate(f=Square(side_length=2.0) (alias for manim.Square), transformation=<lambda>)
+
+In [8]: cm.render(preview=False)
 ```
-{% endraw %}

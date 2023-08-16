@@ -1,17 +1,15 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: “Why do we fall Bruce? So that we can learn to pick ourselves up.”
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: pfp.jpg
+  image_circular: true # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New Delhi, India</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -19,8 +17,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-This is some random text. Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Currently a senior at [Cluster Innovation Centre](https://cic.du.ac.in/), [University of Delhi](https://www.du.ac.in/), I am pursuing my Bachelors in Technology with a major in Information Technology and Mathematical Innovation.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am really passionate about Natural Language Processing, Large Language models, and just coding in general. I sometimes contribute to open-source in my free time; you can find my work in my [GitHub profile](https://github.com/Naman-Priyadarshi).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Some other things I’m passionate about are Video Games and Music. I follow competitive E-Sports ([Counter-Strike](https://blog.counter-strike.net/)) and sometimes compete myself on a national level. I am a huge fan of [Dev1ce](https://www.hltv.org/player/7592/device) and [John Mayer](https://en.wikipedia.org/wiki/John_Mayer).
+
+Also, I'm currently an intern at [SoSy-Lab](https://www.sosy-lab.org/), [Ludwig Maximilian University of Munich](https://www.lmu.de/de/index.html). I am working with the software [BenchExec](https://github.com/sosy-lab/benchexec) (A Framework for Reliable Benchmarking and Resource
+Measurement).

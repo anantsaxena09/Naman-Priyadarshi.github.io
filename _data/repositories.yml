@@ -1,12 +1,6 @@
-github_users:
-  - torvalds
-  - alshedivat
-
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - sosy-lab/benchexec
+  - Saransh-cpp/ForMente
+  - Saransh-cpp/riemapp
+  - pvlib/pvlib-python
+  - scikit-hep/vector
