@@ -2,25 +2,25 @@
 layout: page
 permalink: /experiences/
 title: Experiences
-description: Trying to grow this list
+description:
 nav: true
 nav_order: 5
 ---
 
-## Software Testing Intern ##
-### [SoSy-Lab](https://www.sosy-lab.org) | [Ludwig Maximilian University of Munich](https://www.lmu.de/de/index.html) ###
-[Dr. Philipp Wendler](https://www.sosy-lab.org/people/wendler/)
-<br> June - September 2023 | Remote
+## Open-source Software Development Intern ##
+### [Software and Computational Systems Lab](https://www.sosy-lab.org) | [Ludwig Maximilian University of Munich](https://www.lmu.de/de/index.html) ###
+Dr. Philipp Wendler
+<br> June - November 2023 | Remote
 - The project proposes to migrate the testing framework of [BenchExec](https://github.com/sosy-lab/benchexec) from nose to pytest, incorporate pytest into the codebase, update workflow, and increase overall coverage of the software.
 
 
-## Research and Analytics in Data Science (ML, AI and NLP) ##
-### iGurus Consultancy Services LLP ###
-June - September 2022 | Remote
+## NLP Research Intern ##
+### [iGurus Consultancy Services LLP](https://www.linkedin.com/company/igurus-consultancy-services-llp-ics/) ###
+July - September 2022 | Remote
 - The Project proposed a new hybrid approach of fusing Encoder-Decoder Architecture with an Attention Mechanism to provide Hindi to English Machine Transliteration.
 
 
-## App Development, Testing and Analysis ##
+## App Development Intern ##
 ### [SimplyLocal, Wabitech](https://www.simplylocal.app/) ###
-June - September 2021 | Remote
-- Research, analysis, and testing to create functional, secure, and user-friendly software application
+July - September 2021 | Remote
+- Research, analysis, development, and testing to upgrade the functionalities of SimplyLocal.

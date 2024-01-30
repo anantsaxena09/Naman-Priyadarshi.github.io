@@ -19,9 +19,9 @@ social: true  # includes social icons at the bottom of the page
 
 Currently a senior at [Cluster Innovation Centre](https://cic.du.ac.in/), [University of Delhi](https://www.du.ac.in/), I am pursuing my Bachelors in Technology with a major in Information Technology and Mathematical Innovation.
 
-I am really passionate about Natural Language Processing, Large Language models, and just coding in general. I sometimes contribute to open-source in my free time; you can find my work in my [GitHub profile](https://github.com/Naman-Priyadarshi).
+I am really passionate about data science, machine learning, computer vision, and software engineering. I sometimes contribute to open-source in my free time; you can find my work in my [GitHub profile](https://github.com/Naman-Priyadarshi).
 
-Some other things I’m passionate about are Video Games and Music. I follow competitive E-Sports ([Counter-Strike](https://blog.counter-strike.net/)) and sometimes compete myself on a national level. I am a huge fan of [Dev1ce](https://www.hltv.org/player/7592/device) and [John Mayer](https://en.wikipedia.org/wiki/John_Mayer).
+Some other things I’m passionate about are Video Games and Music. I follow competitive E-Sports ([Counter-Strike](https://blog.counter-strike.net/)) and sometimes compete myself on a national level. I am a huge fan of [Dev1ce](https://www.hltv.org/player/7592/device) and [John Mayer](https://en.wikipedia.org/wiki/John_Mayer). You can find my Steam Profile [here](https://steamcommunity.com/id/EaZy_Steam) (ignore the comments!)
 
-Also, I'm currently an intern at [SoSy-Lab](https://www.sosy-lab.org/), [Ludwig Maximilian University of Munich](https://www.lmu.de/de/index.html). I am working with the software [BenchExec](https://github.com/sosy-lab/benchexec) (A Framework for Reliable Benchmarking and Resource
+I have previously worked at [Software and Computational Systems Lab](https://www.sosy-lab.org/), [Ludwig Maximilian University of Munich](https://www.lmu.de/de/index.html) under Dr. Philipp Wendler. I worked on the software [BenchExec](https://github.com/sosy-lab/benchexec) (A Framework for Reliable Benchmarking and Resource
 Measurement).
