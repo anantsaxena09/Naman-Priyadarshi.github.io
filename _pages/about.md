@@ -27,3 +27,5 @@ Currently I'm working on [SciCookie](https://github.com/osl-incubator/scicookie)
 
 I have previously worked at [Software and Computational Systems Lab](https://www.sosy-lab.org/), [Ludwig Maximilian University of Munich](https://www.lmu.de/de/index.html) under Dr. Philipp Wendler. I worked on the software [BenchExec](https://github.com/sosy-lab/benchexec) (A Framework for Reliable Benchmarking and Resource
 Measurement).
+
+Contact me at: namanpriyadarshicr7 [at] gmail.com
