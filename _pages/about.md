@@ -29,3 +29,5 @@ I have previously worked at [Software and Computational Systems Lab](https://www
 Measurement).
 
 Contact me at: namanpriyadarshicr7 [at] gmail.com
+
+This website requires some front-end work. Help me [here](https://github.com/Naman-Priyadarshi/Naman-Priyadarshi.github.io), thanks!
